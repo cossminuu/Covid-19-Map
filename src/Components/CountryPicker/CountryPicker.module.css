@@ -1,0 +1,19 @@
+.formControl {
+    width: 30%;
+    margin-bottom: 30px !important
+}
+
+.gif {
+    display: none;
+}
+
+@media (max-width:1200px) {
+    .formControl {
+        width: 80%;
+    }
+
+    .gif {
+        max-width: 100px;
+        display: block;
+    }
+}
